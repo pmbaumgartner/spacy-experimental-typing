@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spacy-experimental-typing"
+version = "0.1.0"
+description = "Expriments with adding types for spaCy features."
+authors = ["Peter Baumgartner <5107405+pmbaumgartner@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typing-extensions = "^4.2.0"
+mypy = "^0.950"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.3.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
