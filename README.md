@@ -10,9 +10,9 @@ pip intall git+https://github.com/pmbaumgartner/spacy-experimental-typing
 
 **Types**:
 
-- MatcherTokenAttribute: A `Dict` of a single token pattern match rule.
-- MatcherPattern: A `List` of `MatcherTokenAttribute`s.
-- MatcherRules: A `List` of `MatcherPattern`s.
+- `MatcherTokenAttribute`: A `Dict` of a single token pattern match rule.
+- `MatcherPattern`: A `List` of `MatcherTokenAttribute`s.
+- `MatcherRules`: A `List` of `MatcherPattern`s.
 
 **Example**
 
